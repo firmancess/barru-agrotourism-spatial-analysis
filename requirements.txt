@@ -1,0 +1,9 @@
+numpy
+pandas
+geopandas
+matplotlib
+scipy
+shapely
+pyogrio
+openpyxl
+ipython
