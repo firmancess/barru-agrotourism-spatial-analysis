@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw administrative visitor records
+data/raw/visitor_records/*.xlsx
+data/raw/visitor_records/*.xls
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
