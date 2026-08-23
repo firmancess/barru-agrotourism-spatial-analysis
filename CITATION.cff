@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or processed analytical output, please cite this repository and the associated manuscript."
+title: "Barru Agrotourism Spatial Supply–Demand Analysis"
+type: software
+
+authors:
+  - given-names: "Muhammad"
+    family-names: "Anshar"
+    orcid: "https://orcid.org/0009-0000-7589-4625"
+    affiliation: "Department of Urban and Regional Planning, Faculty of Science and Technology, Universitas Islam Negeri Alauddin Makassar, Makassar, Indonesia"
+
+  - given-names: "Irsyadi"
+    family-names: "Siradjuddin"
+    orcid: "https://orcid.org/0000-0003-3627-1761"
+    affiliation: "Department of Urban and Regional Planning, Faculty of Science and Technology, Universitas Islam Negeri Alauddin Makassar, Makassar, Indonesia"
+
+  - given-names: "Andi Idham"
+    family-names: "AP"
+    orcid: "https://orcid.org/0009-0007-6844-5945"
+    affiliation: "Department of Urban and Regional Planning, Faculty of Science and Technology, Universitas Islam Negeri Alauddin Makassar, Makassar, Indonesia"
+
+  - given-names: "Ahmad Firman"
+    family-names: "Ashari"
+    orcid: "https://orcid.org/0009-0002-0040-0701"
+    affiliation: "Department of Agricultural Product Technology, Faculty of Agriculture, Universitas Teknologi Sulawesi, Makassar, Indonesia"
+
+repository-code: "https://github.com/firmancess/barru-agrotourism-spatial-analysis"
+
+keywords:
+  - agrotourism
+  - spatial analysis
+  - GIS
+  - supply-demand mismatch
+  - composite index
+  - rural tourism
+  - Barru Regency
+
+abstract: "Reproducibility code and processed analytical outputs supporting a spatial supply-demand diagnostic framework for agrotourism corridor planning in Barru Regency, Indonesia."
