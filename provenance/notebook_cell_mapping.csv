@@ -1,0 +1,10 @@
+public_file,source_notebook_cell,role
+scripts/01_prepare_visitor_demand_2023_2025.py,63,visitor-data preparation
+scripts/02_validate_hybrid_grid.py,72,verified hybrid-grid bootstrap
+scripts/03_priority_classification.py,68,priority classification
+scripts/04_primary_demand_spatial_linkage.py,69,primary demand linkage
+scripts/05_percentile_supply_demand_mismatch.py,70,final percentile mismatch
+scripts/06_spatial_sensitivity_and_stability.py,73,spatial sensitivity and stability
+scripts/07_q1_additional_robustness_audit.py,75,Q1 robustness audit
+scripts/08_manuscript_figures_and_tables.py,74,manuscript figures/tables
+scripts/audit/09_optional_find_verified_grid_parent.py,67,optional provenance audit
