@@ -33,6 +33,24 @@ Run from the repository root:
 8. `python scripts/08_manuscript_figures_and_tables.py`
    - Generates the manuscript-ready tables and figures from the final outputs.
 
+9. Run the fixed-sample temporal-window sensitivity analysis with explicit
+   paths to the private administrative visitor workbooks:
+
+   ```bash
+   python scripts/09_temporal_window_sensitivity_2021_2025.py \
+     --visitor-2021 "/private/path/visitor_2021.xlsx" \
+     --visitor-2022 "/private/path/visitor_2022.xlsx" \
+     --primary-demand "/private/path/FINAL_HYBRID_AECS_VISITOR_DEMAND_RESULTS.xlsx" \
+     --output-dir "outputs/09_temporal_window_sensitivity_2021_2025"
+   ```
+
+   - Compares the primary 2023–2025 and extended 2021–2025 windows for the same
+     destination sample.
+   - Produces the association comparison, destination-level class-retention
+     results, input audit, and Supplementary Table S8 source tables.
+   - Earlier years increase temporal coverage but not the number of independent
+     destination-level observations.
+
 ## Optional provenance audit
 
 `python scripts/audit/09_optional_find_verified_grid_parent.py`

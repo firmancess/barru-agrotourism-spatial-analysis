@@ -16,7 +16,13 @@ Detailed dataset descriptions, temporal coverage, analytical functions, and cita
 
 ## Administrative visitor records
 
-The original destination-level visitor workbooks for 2023–2025 are not distributed through this repository. Access remains subject to the conditions of Dinas Pariwisata Kabupaten Barru.
+The original destination-level visitor workbooks for 2021–2025 are not
+distributed through this repository. Access remains subject to the conditions
+of Dinas Pariwisata Kabupaten Barru. The 2023–2025 observations define the
+primary demand window. The 2021–2022 observations are used only in the
+fixed-sample temporal-window sensitivity analysis because they represent
+pandemic and early-recovery conditions and have less consistent monthly
+reporting.
 
 ## Processed Hybrid AECS grid
 

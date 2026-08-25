@@ -14,6 +14,14 @@ The cleaned repository was checked against the uploaded Applied Geography manusc
 | Robustness statistics reported in §4.9 | `07_q1_additional_robustness_audit.py` |
 | ASI realized contribution diagnostic | `07_q1_additional_robustness_audit.py` |
 | Final demand-side figures/tables | `08_manuscript_figures_and_tables.py` |
+| §S1.15 fixed-sample temporal-window sensitivity | `09_temporal_window_sensitivity_2021_2025.py` |
+| Supplementary Table S8 temporal-window comparison | `09_temporal_window_sensitivity_2021_2025.py` |
+
+The fixed-sample temporal-window analysis requires the official 2021 and 2022
+administrative visitor workbooks and the frozen 2023–2025 destination-demand
+output. These restricted administrative inputs are not distributed in the
+public repository. The script remains reproducible for authorized users who
+provide the input paths explicitly.
 
 ## Not fully reproducible from the uploaded source notebook
 

@@ -27,7 +27,9 @@ The repository includes code for:
 - evaluating coordinate-quality sensitivity;
 - assessing AECS–visitor demand associations;
 - conducting bootstrap and permutation-based robustness diagnostics;
-- evaluating realized component contributions and temporal class stability; and
+- evaluating realized component contributions and temporal class stability;
+- testing fixed-sample temporal-window sensitivity by comparing 2023–2025 with
+  2021–2025; and
 - generating manuscript-related tables and figures.
 
 ## Repository structure
@@ -52,6 +54,7 @@ The repository includes code for:
 │   ├── 06_spatial_sensitivity_and_stability.py
 │   ├── 07_q1_additional_robustness_audit.py
 │   ├── 08_manuscript_figures_and_tables.py
+│   ├── 09_temporal_window_sensitivity_2021_2025.py
 │   ├── LICENSE
 │   └── audit/
 │       └── 09_optional_find_verified_grid_parent.py
@@ -69,3 +72,30 @@ The repository includes code for:
 │   └── notebook_cell_mapping.csv
 │
 └── outputs/
+```
+
+## Fixed-sample temporal-window sensitivity
+
+`scripts/09_temporal_window_sensitivity_2021_2025.py` compares the primary
+2023–2025 visitor-demand window with an extended 2021–2025 window for the same
+destination sample. It reads the official 2021 and 2022 visitor workbooks and
+the frozen primary destination-demand output. Missing destination-year values
+remain missing and are not replaced by zero.
+
+The earlier observations expand temporal coverage but do not increase the
+number of independent destination-level observations. Historical destinations
+without frozen AECS and spatial metadata are retained in the input audit but
+excluded from the fixed-sample comparison.
+
+Example:
+
+```bash
+python scripts/09_temporal_window_sensitivity_2021_2025.py \
+  --visitor-2021 "/private/path/visitor_2021.xlsx" \
+  --visitor-2022 "/private/path/visitor_2022.xlsx" \
+  --primary-demand "/private/path/FINAL_HYBRID_AECS_VISITOR_DEMAND_RESULTS.xlsx" \
+  --output-dir "outputs/09_temporal_window_sensitivity_2021_2025"
+```
+
+The administrative visitor workbooks are not distributed in this public
+repository. See `DATA_SOURCES.md` and `data/raw/visitor_records/README.md`.
